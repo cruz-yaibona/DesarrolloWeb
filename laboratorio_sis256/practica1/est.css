@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#cabecera{
+	width: 900px;
+	height: 500px;
+    background-color: #CACFD2;
+	margin: auto;
+	margin-top: 50px;
+}
+#logo{
+	width: 900px;
+	height: 200px;
+	background-color: #bfceea;
+}
+#izquierda{
+	width: 120px;
+	height: 300px;
+	background-color: black;
+}
+#derecha{
+	width: 780px;
+	height: 300px;
+	float: right;
+}
+ul.menu{
+	float: left;
+	width: 100px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #7C7C7C;
+}
+ul.menu li a:link, ul.menu li a:visited{
+	padding: .3em;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background: #F4F4F4;
+	border-top: 1px solid #7C7C7C;
+	border-right: 1px solid #7C7C7C;
+	border-bottom: 1px solid #9C9C9C;
+}
+ul.menu li a:hover{
+	background-color: #FC0;
+}
